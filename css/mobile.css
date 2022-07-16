@@ -1,0 +1,189 @@
+@media screen and (max-width:980px) {
+    .container {
+        padding: 0 1rem;
+    }
+    .top-right {
+        max-width: 300px;
+    }
+}
+@media screen and (max-width:760px) {
+    .wpcf7-list-item .wpcf7-list-item-label,
+    .form-services--field {
+        padding: 7px 12px;
+    }
+}
+@media screen and (max-width:640px) {
+    .top {
+        padding: 12px 0;
+    }
+    .top-wrapper {
+        flex-direction: column-reverse;
+    }
+    .top-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .top-list--item {
+        font-size: 13px;
+        line-height: 26px;
+    }
+    .top-right {
+        max-width: 100%;
+        width: 100%;
+        align-self: center;
+        
+    }
+    .top-img {
+        max-height: 170px;
+    }
+    .btn {
+        width: 100%;
+        font-size: 12px;
+    }
+    .section-headline, .form-headline {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .tariffs-card--title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .tariffs-card--subtitle {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .tariffs-card--speed {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .tariffs-card--description,
+    .tariffs-card--strings span {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .tariffs-card--price {
+        font-size: 25px;
+        line-height: 37px;
+    }
+    .tariffs-card--price span {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .tariffs-card--add {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .form-container {
+        padding: 0;
+    }
+    .form-wrapper {
+        padding: 20px 10px;
+    }
+    .wpcf7-list-item .wpcf7-list-item-label, .form-services--field {
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .form-field--text {
+        margin-bottom: 10px;
+        width: 100%;
+        margin-right: 0;
+    }
+    .form-field--text input {
+        max-width: 100%;
+        width: 100%;
+    }
+    .form-submit {
+        margin-top: 15px;
+    }
+    .form-agreement--field input[type="checkbox"] { 
+        display: none;
+    }
+    .form-agreement--text {
+        display: none;
+    }
+    .form-agreement--text-mobile {
+        display: block;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .navigation-left {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    footer .navigation-logo {
+        margin: 0;
+    }
+    .footer-text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .burger{
+        width: 90px;
+        height: 90px;
+        display: block;
+        overflow: hidden;
+        cursor: pointer;
+        position: relative;
+        -webkit-transform: scale(0.35);
+            -ms-transform: scale(0.35);
+                transform: scale(0.35);
+        margin-left: -1em;
+        grid-area: burger;
+    }
+    .burger > span{
+        display: block;
+        position: relative;
+        width: 90%;
+        height: 10px;
+        margin: 15px auto;
+        background-color: var(--color-black);
+        border-radius: 10px;
+    }
+    
+    .burger > span#sp1{
+        -webkit-transition: all .3s .5s;
+        -o-transition: all .3s .5s;
+        transition: all .3s .5s;
+    }
+    
+    .burger > span#sp2{
+        -webkit-transition: all .3s .3s;
+        -o-transition: all .3s .3s;
+        transition: all .3s .3s;
+    }
+    
+    .burger > span#sp3{
+        -webkit-transition: all .3s .1s;
+        -o-transition: all .3s .1s;
+        transition: all .3s .1s;
+    }
+    
+    .burger.active > span#sp1{
+        width: 90%;
+        height: 90%;
+        margin: 5px auto;
+        -webkit-transition: all .3s .1s;
+        -o-transition: all .3s .1s;
+        transition: all .3s .1s;
+    }
+    
+    .burger.active > span#sp2{
+        background-color: #FFFFFF;
+        -webkit-transform: translateY(-60px) rotateZ(45deg);
+            -ms-transform: translateY(-60px) rotate(45deg);
+                transform: translateY(-60px) rotateZ(45deg);
+        -webkit-transition: all .3s .3s;
+        -o-transition: all .3s .3s;
+        transition: all .3s .3s;
+    }
+    
+    .burger.active > span#sp3{
+        background-color: #FFFFFF;
+        -webkit-transform: translateY(-85px) rotateZ(-45deg);
+            -ms-transform: translateY(-85px) rotate(-45deg);
+                transform: translateY(-85px) rotateZ(-45deg);
+        -webkit-transition: all .3s .5s;
+        -o-transition: all .3s .5s;
+        transition: all .3s .5s;
+    }
+}

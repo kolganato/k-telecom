@@ -1,0 +1,121 @@
+.form-wrapper {
+    background-color: var(--color-bg);
+    padding: 50px 50px 87px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.form-headline {
+    margin-bottom: 20px;
+}
+.form-services--fields {
+    margin-bottom: 10px;
+}
+.form-services--field {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.wpcf7-list-item:not(:last-child) .wpcf7-list-item-label,
+.form-services--field:not(:last-child) {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.form-services--fields input[type="radio"],
+.form-services--field input[type="radio"] {
+    display: none;
+}
+.form-services--fields .wpcf7-list-item-label,
+.form-field--radio {
+    padding: 7px 40px;
+    display: inline-block;
+    border: 1px solid rgba(45, 45, 45, 0.1);
+    border-radius: 10px;
+    color: var(--color-black);
+    cursor: pointer;
+}
+.form-services--fields input[type="radio"]:checked ~ .wpcf7-list-item-label,
+.form-services--field input[type="radio"]:checked ~ .form-field--radio {
+    border-color: var(--color-blue);
+    color: var(--color-blue);
+}
+
+.form-contacts--fields {
+    margin-bottom: 20px;
+}
+.form-field--text {
+    background-color: var(--color-bg-white);
+    border-radius: 2px;
+    margin-right: 30px;
+    display: inline-flex;
+    height: 45px;
+    position: relative;
+}
+.form-field--text input {
+    outline: none;
+    border: 0;
+    font-family: var(--font-open-sans);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--color-black);
+    padding: 12px 25px;
+    display: inline-flex;
+    align-items: center;
+    max-width: 200px;
+}
+.form-field--text input::placeholder {
+    color: rgba(45, 45, 45, 0.3);
+}
+.wpcf7-not-valid-tip {
+    position: absolute;
+    left: 25px;
+    font-size: 12px
+}
+.form-agreement--field input[type="checkbox"] {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    border: 2px solid rgba(45, 45, 45, 0.1);
+    border-radius: 2px;
+    margin-right: 10px;
+    position: relative;
+}
+.form-agreement--field .wpcf7-list-item-label {
+    display: none;
+}
+.form-submit {
+    border: 0;
+    display: inline-flex;
+    margin-top: 10px;
+}
+.form-agreement--field {
+    display: flex;
+    align-items: center;
+}
+.form-agreement--text {
+    font-family: 'Cera Round Pro Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #989898;
+}
+.form-agreement--link {
+    text-decoration: underline;
+    color: inherit;
+}
+.screen-reader-response {
+    display: none;
+}
+.wpcf7-response-output {
+    font-family: 'Cera Round Pro Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--color-black);
+    margin-top: 1rem;
+}
+.form-agreement--text-mobile {
+    display: none;
+}

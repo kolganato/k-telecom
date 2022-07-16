@@ -1,0 +1,113 @@
+:root {
+    --color-main:#C81059;
+    --color-blue:#0099C8;
+    --color-black:#2D2D2D;
+    --color-bg:#F2F6F8;
+    --color-bg-white: #FFFFFF;
+    --color-text-white:#FFFFFF;
+    --color-text-description:#555555;
+    --color-text-grey:#ACACAC;
+    --font-cera: 'Cera Round Pro Medium', sans-serif;
+    --font-cera-bold: 'Cera Round Pro Bold', sans-serif;
+    --font-open-sans: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-cera);
+    letter-spacing: 0.02em;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: var(--color-black);
+    font-style: normal;
+    font-family: var(--font-cera-bold);
+}
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+}
+h2 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 52px;
+}
+h3 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+}
+h4 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+h5 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    background: var(--color-bg-white);
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-main);
+    color: var(--color-bg-white);
+    font-family: var(--font-cera);
+    font-size: 14px;
+    padding: 12px 60px;
+    border-radius: 5px;
+    width: max-content;
+    cursor: pointer;
+    height: 45px;
+}
+.section-headline,
+.form-headline {
+    font-size: 28px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+.element-checkbox {
+    width: 23px;
+    height: 23px;
+    border: 2px solid rgba(45, 45, 45, 0.1);
+    border-radius: 2px;
+    margin-right: 10px;
+    position: relative;
+}
+input[type="checkbox"]:checked ~ .element-checkbox {
+    background-color: var(--color-blue);
+    border: 0;
+}
+input[type="checkbox"]:checked ~ .element-checkbox::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 23px;
+    height: 23px;
+    background-image: url('/wp-content/themes/k-telecom/icon/ok.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,0 +1,14 @@
+header {
+    height: 77px;
+    background: var(--color-bg-white);
+    display: flex;
+    align-items: center;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-logo {
+    display: inline-block;
+}

@@ -1,0 +1,29 @@
+footer {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+.navigation-left {
+    display: flex;
+    align-items: center;
+}
+footer .navigation-logo {
+    margin-right: 60px;
+}
+.footer-text {
+    font-family: 'Cera Round Pro Regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #C2C2C2;
+}
+.footer-list--social {
+    display: inline-flex;
+    align-items: center;
+    list-style-type: none;
+}
+footer .navigation {
+    padding: 20px 0;
+    border-top: 1px solid rgba(45, 45, 45, 0.1);
+    border-bottom: 1px solid rgba(45, 45, 45, 0.1);
+}
