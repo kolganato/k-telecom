@@ -1,0 +1,19 @@
+Шорткод находится в файле template-parts/form.php
+
+<div class="form-services--fields">
+    [radio service use_label_element id:internet default:2 "Интернет" "Интернет+ТВ" "Телефония" "Видеонаблюдение"]
+</div>
+<div class="form-contacts--fields">
+<label for="name_client" class="form-field--text form-name">
+[text* name_client id:name_client placeholder "Имя"]                        
+</label>
+<label for="phone" class="form-field--text form-phone">
+[text* phone id:phone placeholder "Телефон"]                        
+</label>
+[submit class:btn class:form-submit "Отправить"]
+</div>
+<label class="form-agreement--field" for="agreement">
+    [checkbox* agreement id:agreement default:1 "Я соглашаюсь на условия"]
+    <div class="form-agreement--text">Я соглашаюсь на условия <a target="_blank" class="form-agreement--link" href="http://">обработки данных</a></div>
+    <div class="form-agreement--text form-agreement--text-mobile">Нажимая кнопку "Отправить" вы соглашаетесь на <a target="_blank" class="form-agreement--link" href="http://">обработку данных</a>
+</label>
