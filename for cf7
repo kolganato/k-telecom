@@ -1,5 +1,7 @@
 Шорткод находится в файле template-parts/form.php
 
+Добавить в форму CF7
+
 <div class="form-services--fields">
     [radio service use_label_element id:internet default:2 "Интернет" "Интернет+ТВ" "Телефония" "Видеонаблюдение"]
 </div>
